@@ -13,7 +13,7 @@ from core.loggers import log, dlog
 from core.sessions import SessionURL, SessionFile
 from core.terminal import Terminal
 from core.weexceptions import FatalException
-
+# --> https://pastebin.com/vyPHbZDX
 if sys.stdout.encoding is None:
     print("Please set PYTHONIOENCODING=UTF-8 running 'export PYTHONIOENCODING=UTF-8' before starting Weevely.")
     exit(1)
